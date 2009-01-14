@@ -1,0 +1,32 @@
+The slicot package contains a numpy wrapper of the slicot control system 
+fortran library.
+
+Documentation of the fortran functions can be found at [1]
+
+The wrapper was written by Henrik Johansson <henjo2006@gmail.com>
+
+Install
+-------
+
+Pre-requisites are a build tools, a fortran compiler and the lapack library.
+
+In Ubuntu 8.11 (Intrepid) these can be installed as:
+
+> sudo apt-get build-dep python-scipy
+
+To build and install the library:
+
+> python setup.py install
+
+Usage
+-----
+
+In python:
+
+>>> import slicot
+
+References
+----------
+[1] http://www.icm.tu-bs.de/NICONET/
+
+
